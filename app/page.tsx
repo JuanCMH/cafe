@@ -11,42 +11,69 @@ const carouselItems = [
     title: "Conoce nuestra nueva sede",
     description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
   },
-  {
-    imageSrc: "/carrousel.png",
-    title: "Conoce nuestra nueva sede",
-    description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
-  },
-  {
-    imageSrc: "/carrousel.png",
-    title: "Conoce nuestra nueva sede",
-    description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
-  },
-  {
-    imageSrc: "/carrousel.png",
-    title: "Conoce nuestra nueva sede",
-    description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
-  },
 ];
 
 const promoProducts = [
   {
-    imageSrc: "/coffee-bag.png",
-    name: "Café tostado Altomayo molido 450g",
-    price: "$45.000",
-    relevantInfo: "$100/g",
-  },
-  {
-    imageSrc: "/coffee-bag.png",
-    name: "Café tostado Altomayo molido 450g",
-    price: "$45.000",
-    relevantInfo: "$100/g",
-  },
-  {
-    imageSrc: "/coffee-bag.png",
-    name: "Café tostado Altomayo molido 450g",
-    price: "$45.000",
-    relevantInfo: "$100/g",
-  },
+      "name": "Café en grano - Origen Huila 250g",
+      "price": "18000",
+      "relevantInfo": "72",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café molido - Origen Nariño 250g",
+      "price": "18500",
+      "relevantInfo": "74",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café en grano - Origen Antioquia 340g",
+      "price": "24000",
+      "relevantInfo": "70.6",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café molido - Origen Sierra Nevada 500g",
+      "price": "32000",
+      "relevantInfo": "64",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café en grano - Blend Especial 1kg",
+      "price": "58000",
+      "relevantInfo": "58",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café molido - Descafeinado 250g",
+      "price": "20000",
+      "relevantInfo": "80",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café en grano - Tostión Media 500g",
+      "price": "30000",
+      "relevantInfo": "60",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café molido - Tostión Oscura 340g",
+      "price": "25000",
+      "relevantInfo": "73.5",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café en grano - Orgánico 500g",
+      "price": "35000",
+      "relevantInfo": "70",
+      "imageSrc": "/coffee-bag.png"
+    },
+    {
+      "name": "Café molido - Premium Reserva 250g",
+      "price": "22000",
+      "relevantInfo": "88",
+      "imageSrc": "/coffee-bag.png"
+    }
 ];
 
 const methodProducts = [

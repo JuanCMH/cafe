@@ -31,8 +31,8 @@ export default function ProductSection({
 				)}
 			</div>
 			<div className="mt-4 flex flex-row gap-6 overflow-x-auto p-4">
-				{products.map((product) => (
-					<ProductCard key={product.name} {...product} />
+				{products.map((product, index) => (
+					<ProductCard key={index} {...product} />
 				))}
 			</div>
 		</section>

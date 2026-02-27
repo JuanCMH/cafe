@@ -19,9 +19,9 @@ export default function Carousel({ items }: CarouselProps) {
 				/>
 			)}
 			<div className="mt-4 flex w-full flex-row items-center justify-center gap-2">
-				{items.map((item, index) => (
+				{items.map((_, index) => (
 					<div
-						key={item.title}
+						key={index}
 						className={`h-3 w-3 rounded-full ${
 							index === 0 ? "bg-dark-brown" : "bg-cream"
 						}`}
