@@ -18,7 +18,7 @@ export default function CarouselItem({ imageSrc, title, description }: CarouselI
       />
       <div className="absolute bottom-0 w-full rounded-b-2xl bg-overlay px-4 py-2 text-cream">
         <h3 className="m-0 max-w-36.75 text-lg font-medium">{title}</h3>
-        <p className="m-0 max-w-55.5 text-sm font-light">{description}</p>
+        <p className="m-0 max-w-64 text-sm font-light">{description}</p>
       </div>
     </article>
   );

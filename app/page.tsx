@@ -11,6 +11,21 @@ const carouselItems = [
     title: "Conoce nuestra nueva sede",
     description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
   },
+  {
+    imageSrc: "/carrousel.png",
+    title: "Conoce nuestra nueva sede",
+    description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
+  },
+  {
+    imageSrc: "/carrousel.png",
+    title: "Conoce nuestra nueva sede",
+    description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
+  },
+  {
+    imageSrc: "/carrousel.png",
+    title: "Conoce nuestra nueva sede",
+    description: "Ven y visítanos en nuestro nuevo local, ubicado en Chapinero",
+  },
 ];
 
 const promoProducts = [
